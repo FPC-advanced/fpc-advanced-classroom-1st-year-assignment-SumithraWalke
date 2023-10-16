@@ -8,18 +8,3 @@ float input()
     return n;
 }
 float square_root(float n)
-{
-    return sqrt(n);
-}
-void output(float n,float sqrroot)
-{
-    printf("Square root of %f is %f",n ,sqrroot);
-}
-int main()
-{
-    float n,sqrot;
-    n=input();
-    sqrot=square_root(n);
-    output(n,sqrot);
-    return 0;
-}
