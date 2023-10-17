@@ -36,3 +36,14 @@ At line:1 char:1
     + CategoryInfo          : ObjectNotFound: (c:\Users\Sumithra:String) [], CommandNotFoundException
     + FullyQualifiedErrorId : CommandNotFoundException
 
+PS C:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke> git add .
+
+PS C:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke> git commit -m "committed 10/17/2023, 12:08:40 PM"
+
+PS C:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke> git push
+
+PS C:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231017120855
+**********************
