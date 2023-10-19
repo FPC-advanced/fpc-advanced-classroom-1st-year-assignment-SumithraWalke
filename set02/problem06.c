@@ -2,5 +2,5 @@
 #include<string.h>
 void input_string(char *a)
 {
-    printf("enter the number")
+    printf("enter the n")
 }
