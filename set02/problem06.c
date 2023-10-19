@@ -2,5 +2,6 @@
 #include<string.h>
 void input_string(char *a)
 {
-    printf("enter the word:")
+    printf("enter the word:");
+    scanf("%s",a);
 }
