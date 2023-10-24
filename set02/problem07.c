@@ -5,5 +5,6 @@ typedef struct _triangle {
 
 Triangle input_triangle()
 {
-    Triangle 
+    Triangle t;
+    printf
 }
