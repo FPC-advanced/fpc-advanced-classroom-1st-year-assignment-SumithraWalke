@@ -6,5 +6,5 @@ typedef struct _triangle {
 Triangle input_triangle()
 {
     Triangle t;
-    printf
+    printf("Enter the bbase")
 }
