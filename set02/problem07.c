@@ -12,4 +12,18 @@ Triangle input_triangle()
     scanf("%f",&t.altitude);
     return t;
 }
-void find_area
+void find_area(Triangle *t)
+{
+    t->area=0.5 * t->base * t->altitude;
+}
+void output(Triangle t)
+ {
+    printf("The area of triangle with base =%f and altitude = %f is %f",t.base,t.altitude,t.area);
+}
+int main()
+{
+  Triangle triangle=input_triangle();
+  find_area(&triangle);
+  output(triangle);
+  return 0;  
+}
