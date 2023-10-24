@@ -17,3 +17,8 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set02\problem07_session.txt
+PS C:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231024122241
+**********************
