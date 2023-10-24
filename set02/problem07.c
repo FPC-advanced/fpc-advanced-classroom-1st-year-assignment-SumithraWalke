@@ -7,5 +7,6 @@ Triangle input_triangle()
 {
     Triangle t;
     printf("Enter the base of the triangle:");
-    scanf("%f", &)
+    scanf("%f", &t.base);
+    printf("")
 }
