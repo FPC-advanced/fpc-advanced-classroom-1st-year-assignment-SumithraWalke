@@ -1,2 +1,2 @@
 #include<stdio.h>
-typedef struct _
+typedef struct _triangle
