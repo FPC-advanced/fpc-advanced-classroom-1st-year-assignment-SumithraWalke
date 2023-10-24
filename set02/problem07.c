@@ -4,3 +4,6 @@ typedef struct _triangle {
 }Triangle;
 
 Triangle input_triangle()
+{
+    Triangle 
+}
