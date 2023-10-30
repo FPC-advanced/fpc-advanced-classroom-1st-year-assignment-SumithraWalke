@@ -13,7 +13,7 @@ float find_distance(float x1, float y1, float x2, float y2)
     float dx,dy;
     dx=x2-x1;
     dy=y2-y1;
-    return sqrt((dx*dx)-(dy*dy));
+    return sqrt((dx*dx)+(dy*dy));
 }
 void output(float x1, float y1, float x2, float y2, float distance)
 {
