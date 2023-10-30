@@ -2,7 +2,7 @@
 #include<math.h>
 void input(float *x1,float *y1,float *x2,float *y2)
 {
-    printf("Enter the coordinates of first point:");
+    printf("Enter the co_ordinates of first point:");
     scanf("%f %f",x1,y1);
     printf("Enter the coordinates of second point:");
     scanf("%f %f",x2,y2);
