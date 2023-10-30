@@ -1,0 +1,10 @@
+16	    return sqrt((dx*dx)-(dy*dy));
+17	}
+18	void output(float x1, float y1, float x2, float y2, float distance)
+19	{
+20	    printf(" The difference between point (%f ,%f) and (%f,%f) is %f",x1,y1,x2,y2,distance);
+21	}
+22	int main()
+23	{
+24	    float x1,y1,x2,y2,distance;
+25	    input(&x1,&y1,&x2,&y2);
