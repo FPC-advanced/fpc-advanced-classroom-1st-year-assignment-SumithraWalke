@@ -15,7 +15,7 @@ int find_fibo(int n)
    } 
    for(int i=2;i<=n;i++)
    {
-    f1=f
+    
    }
    return f1
 }
