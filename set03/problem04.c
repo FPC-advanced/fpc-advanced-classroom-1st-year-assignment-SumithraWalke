@@ -19,5 +19,6 @@ int find_fibo(int n)
     f0=f1;
     f1=f;
    }
-   return f1
+   return f1;
 }
+void output(n,fibo)
