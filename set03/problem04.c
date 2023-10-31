@@ -23,5 +23,5 @@ int find_fibo(int n)
 }
 void output(n,fibo)
 {
-    printf
+    printf("fibo(%d)=%d")
 }
