@@ -29,5 +29,6 @@ int main()
 {
    int n,fibo;
    n=input();
-   
+   fibo=find_fibo(n);
+   output(n,fibo)
 }
