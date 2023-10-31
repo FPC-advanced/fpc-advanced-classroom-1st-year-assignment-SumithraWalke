@@ -21,7 +21,7 @@ int find_fibo(int n)
    }
    return f1;
 }
-void output(n,fibo)
+void output(int n,int fibo)
 {
     printf("fibo(%d)=%d",n,fibo);
 }
