@@ -25,3 +25,9 @@ void output(n,fibo)
 {
     printf("fibo(%d)=%d",n,fibo);
 }
+int main()
+{
+   int n,fibo;
+   n=input();
+   
+}
