@@ -22,3 +22,6 @@ int find_fibo(int n)
    return f1;
 }
 void output(n,fibo)
+{
+    printf
+}
