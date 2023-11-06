@@ -45,5 +45,6 @@ void output(int n, int a[n])
 int main()
 {
     int n,a[100];
+    n=input_array_size();
     
 }
