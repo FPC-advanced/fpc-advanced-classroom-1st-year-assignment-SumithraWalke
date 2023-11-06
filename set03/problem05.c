@@ -36,9 +36,14 @@ void output(int n, int a[n])
             printf("%d",i);
             if(i!=n)
             {
-                printf("")
+                printf(",");
             }
         }
     }
 
+}
+int main()
+{
+    int n,a[100];
+    
 }
