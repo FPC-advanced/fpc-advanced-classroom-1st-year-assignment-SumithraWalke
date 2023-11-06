@@ -29,6 +29,12 @@ void erotosthenes_sieve(int n,int a[n])
 void output(int n, int a[n])
 {
     printf("the prime number between 2 to %d is",n);
-    for(int i=2;i<=n)
+    for(int i=2;i<=n;i++)
+    {
+        if(a[i]==1)
+        {
+            
+        }
+    }
 
 }
