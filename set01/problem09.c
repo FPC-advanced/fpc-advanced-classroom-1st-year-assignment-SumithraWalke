@@ -17,14 +17,13 @@ float square_root(float n) {
     
     float guess = n; 
     float previous_guess;
-    float i=0; 
+    float epsilon=0.0001;
 
     do {
         previous_guess = guess;
-        guess = 0.5 * (guess + n / guess);
-        i++;
-    } while (guess*guess!=n&&i<20);
-
+       guess=0.5*(guess+n/guess);
+    }
+    while(fabs(guess-previous_guess)>epsilon);
     return guess;
 }
 
