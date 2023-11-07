@@ -9,8 +9,10 @@ float input() {
 }
 
 
-float square_root(float n) {
-    if (n < 0) {
+float square_root(float n)
+ {
+    if (n < 0)
+    {
         printf("Square root of a negative number is not defined.\n");
         return -1.0;
     }
@@ -28,13 +30,16 @@ float square_root(float n) {
 }
 
 
-void output(float n, float sqrroot) {
-    if (sqrroot >= 0) {
+void output(float n, float sqrroot) 
+{
+    if (sqrroot >= 0) 
+    {
         printf("The square root of %.2f is approximately %.4f\n", n, sqrroot);
     }
 }
 
-int main() {
+int main() 
+{
     float number, result;
     number = input();
     result = square_root(number);
