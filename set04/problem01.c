@@ -10,7 +10,10 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
     *res_num=(num1*den2)+(num2*den1);
     *res_den=(den1*den2);
-    
+    for (int i = 1; i <= x && i <= y; ++i){
+        if (x % i == 0 && y % i == 0){
+            gcd = i;
+        }
 }
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
 {
