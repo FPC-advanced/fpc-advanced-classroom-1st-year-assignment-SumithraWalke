@@ -1,0 +1,86 @@
++l
+14	}
+15	void output(int a, int b, int sum)
+16	{
+17	    printf("the sum of %d and %d id %d",a,b,sum);
+18	
+19	}
+20	int main()
+21	{
+22	    int a,b,sum;
+23	    a=input();
++b 6
+Breakpoint 1 at 0x401472: file c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c, line 6.
++b main
+Breakpoint 2 at 0x4014d8: file c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c, line 23.
++b 12
+Breakpoint 3 at 0x401490: file c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c, line 12.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401472 in input 
+                                           at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:6
+2       breakpoint     keep y   0x004014d8 in main 
+                                           at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:23
+3       breakpoint     keep y   0x00401490 in add 
+                                           at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:12
++r
+Starting program: c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01/./problem03.exe 
+[New Thread 3528.0xc50]
+[New Thread 3528.0x3ba0]
+[New Thread 3528.0x3dcc]
+
+Breakpoint 2, main () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:23
+23	    a=input();
++step
+input () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:5
+5	    printf("enter the number:");
++n
+
+Breakpoint 1, input () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:6
+6	    scanf("%d",&n);
++n
+7	    return n;
++p n
+$1 = 4
++n
+8	}
++n
+main () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:24
+24	    b=input();
++n
+
+Breakpoint 1, input () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:6
+6	    scanf("%d",&n);
++n
+7	    return n;
++p n
+$2 = 7
++n
+8	}
++n
+main () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:25
+25	    sum=add(a,b);
++n
+
+Breakpoint 3, add (a=4, b=7) at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:12
+12	    add=a+b;
++n
+13	    return add;
++p add
+$3 = 11
++n
+14	}
++n
+main () at c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem03.c:26
+26	    output(a,b,sum);
++n
+27	    return 0;
++n
+29	}+n
+0x00401288 in __register_frame_info ()
++quit
+A debugging session is active.
+
+	Inferior 1 [process 3528] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
