@@ -1,1 +1,1 @@
-#inclu
+#include<stdio.h>
