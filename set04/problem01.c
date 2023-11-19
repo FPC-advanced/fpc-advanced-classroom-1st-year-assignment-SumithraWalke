@@ -19,5 +19,6 @@ int main()
 {
     int num1,num2,den1,den2,res_num,res_den;
     input(&num1,&den1,&num2,&den2);
-    add(num1,den1,num2,den2,&rres_num,res_den)
+    add(num1,den1,num2,den2,&res_num,&res_den);
+    output(num1,den1,num2,den2,)
 }
