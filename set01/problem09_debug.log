@@ -1,0 +1,5 @@
++b 12
+Breakpoint 1 at 0x402110: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 12.
++b 45
+Note: breakpoint 1 also set at pc 0x402110.
+Breakpoint 2 at 0x402110: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 45.
