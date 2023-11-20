@@ -21,9 +21,7 @@ float square_root(float n)
     float previous_guess;
     float epsilon=0.0001;
 
-    
-
-    for(int i=0;i<20;i++)
+     for(int i=0;i<20;i++)
     { 
         do {
         previous_guess = guess;
