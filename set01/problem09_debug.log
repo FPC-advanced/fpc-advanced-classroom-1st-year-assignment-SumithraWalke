@@ -14,3 +14,134 @@ Breakpoint 1, __chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin
 163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
 +n
 165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++b 12
+Breakpoint 1 at 0x401490: file problem09.c, line 12.
++b 45
+Breakpoint 2 at 0x401550: file problem09.c, line 45.
++r
+Starting program: c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01/./problem09.exe 
+[New Thread 9440.0x27ac]
+[New Thread 9440.0x54e8]
+[New Thread 9440.0x3ff4]
+
+Breakpoint 2, main () at problem09.c:45
+45	    result = square_root(number);
++n
+
+Breakpoint 1, square_root (n=2) at problem09.c:14
+14	    if (n < 0)
++n
+20	    float guess = n; 
++n
+22	    float epsilon=0.0001;
++p guess
+$1 = 2
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n);
++n
+25	        previous_guess = guess;
++print guess
+$2 = 1.41421354
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n)
++n
+25	        previous_guess = guess;
++n
+26	       guess=0.5*(guess+n/guess);
++n
+28	    while(guess*guess!=n)
++n
+25	        previous_guess = guess;
++n
+26	 do {
++n
+28	     guess=0.5*(guess+n/guess);
++n
+25	nt i=0;i<20;i++)
++n
+26	 do {
++n
+28	     guess=0.5*(guess+n/guess);
++n
+25	nt i=0;i<20;i++)
++n
+26	 do {
++n
+28	     guess=0.5*(guess+n/guess);
++n
+25	nt i=0;i<20;i++)
++n
+26	 do {
++n
+28	     guess=0.5*(guess+n/guess);
++n
+25	nt i=0;i<20;i++)
++n
+26	 do {
++nn
+Undefined command: "nn".  Try "help".
++n
+28	     guess=0.5*(guess+n/guess);
++n
+25	nt i=0;i<20;i++)
++n
+26	 do {
++n
+28	     guess=0.5*(guess+n/guess);
++n
+25	nt i=0;i<20;i++)
++n
+26	 do {
++n
+28	     guess=0.5*(guess+n/guess);
++nn
+Undefined command: "nn".  Try "help".
++nn
+Undefined command: "nn".  Try "help".
++nn
+Undefined command: "nn".  Try "help".
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
