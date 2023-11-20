@@ -4,3 +4,7 @@ Compilation started at 11/7/2023, 11:28:26 AM
 Compilation finished at 11/7/2023, 11:28:27 AM
 Compilation started at 11/7/2023, 11:29:29 AM
 Compilation finished at 11/7/2023, 11:29:30 AM
+Compilation started at 11/20/2023, 11:14:11 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01\problem09.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/20/2023, 11:14:11 AM
