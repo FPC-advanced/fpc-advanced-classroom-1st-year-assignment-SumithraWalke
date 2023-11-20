@@ -3,3 +3,14 @@ Breakpoint 1 at 0x402110: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.
 +b 45
 Note: breakpoint 1 also set at pc 0x402110.
 Breakpoint 2 at 0x402110: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 45.
++r
+Starting program: c:\Users\Sumithra Walke\cprograms\fpc-advanced-classroom-1st-year-assignment-SumithraWalke\set01/./problem09.exe 
+[New Thread 3900.0x56f4]
+[New Thread 3900.0x4668]
+[New Thread 3900.0x2f14]
+[New Thread 3900.0x1d00]
+
+Breakpoint 1, __chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++n
+165	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
