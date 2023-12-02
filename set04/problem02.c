@@ -10,3 +10,4 @@ printf("Enter the numerator and the denominator of thr number:");
 scanf("%d %d",&a.num,&a.den);
 return a;
 }
+Fraction smallest(Fraction a,Fraction b,fraction c)
