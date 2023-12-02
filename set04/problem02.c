@@ -1,4 +1,8 @@
 #include<stdio.h>
 typedef struct{
     int num,den;
-}Fraactions;;
+}Fractions;
+Fraction input()
+{
+
+}
