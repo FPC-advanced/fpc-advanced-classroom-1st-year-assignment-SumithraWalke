@@ -32,3 +32,9 @@ void output(Fraction a,Fraction b,Fraction c)
 
 }
 int main()
+{
+    Fraction x,y,z,small;
+    x=input();
+    y=input();
+    
+}
