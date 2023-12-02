@@ -20,14 +20,15 @@ float square_root(float n)
     float guess = n; 
     float previous_guess;
     float epsilon=0.0001;
-
-     for(int i=0;i<20;i++)
+    int i=0;
     { 
         do {
         previous_guess = guess;
        guess=0.5*(guess+n/guess);
     }
-      while(guess*guess!=n);  
+      while(guess<epsilon);  
+
+
     }
     return guess;
 }
