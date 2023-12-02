@@ -28,5 +28,5 @@ Fraction smallest(Fraction a,Fraction b,fraction c)
 }
 void output(Fraction a,Fraction b,Fraction c)
 {
-    printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d ")
+    printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d ",a.num,a.den,b.num,b.den,c.num,c.den)
 }
