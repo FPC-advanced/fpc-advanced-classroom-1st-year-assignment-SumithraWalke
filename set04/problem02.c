@@ -5,5 +5,6 @@ typedef struct{
 
 Fraction input()
 {
-
+Fraction a;
+printf("")
 }
