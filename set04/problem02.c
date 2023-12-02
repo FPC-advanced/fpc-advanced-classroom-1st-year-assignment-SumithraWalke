@@ -36,5 +36,7 @@ int main()
     Fraction x,y,z,small;
     x=input();
     y=input();
-    
+    z=input();
+    small=smallest(x,y,z);
+    output()
 }
