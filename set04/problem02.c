@@ -26,4 +26,7 @@ Fraction smallest(Fraction a,Fraction b,fraction c)
         return c;
     }
 }
-void output(Fraction a)
+void output(Fraction a,Fraction b,Fraction c)
+{
+    
+}
