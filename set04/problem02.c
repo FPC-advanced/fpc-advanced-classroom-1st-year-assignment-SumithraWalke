@@ -10,7 +10,7 @@ printf("Enter the numerator and the denominator of thr number:");
 scanf("%d %d",&a.num,&a.den);
 return a;
 }
-Fraction smallest(Fraction a,Fraction b,fraction c)
+Fraction smallest(Fraction a,Fraction b,Fraction c)
 {
     float p,q,r;
     p=a.num/a.den;
@@ -26,7 +26,7 @@ Fraction smallest(Fraction a,Fraction b,fraction c)
         return c;
     }
 }
-void output(Fraction a,Fraction b,Fraction c,Fraction a)
+void output(Fraction a,Fraction b,Fraction c,Fraction small)
 {
     printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d ",a.num,a.den,b.num,b.den,c.num,c.den,small.num,small.den);
 
