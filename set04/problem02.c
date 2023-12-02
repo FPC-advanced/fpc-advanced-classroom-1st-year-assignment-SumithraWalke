@@ -19,5 +19,8 @@ Fraction smallest(Fraction a,Fraction b,fraction c)
     if(p<q&&p<r)
     {
         return a;
+    }else if(q<r)
+    {
+        return b;
     }
 }
