@@ -6,7 +6,7 @@ typedef struct{
 Fraction input()
 {
 Fraction a;
-printf("Enter the numerator and the denominator of thr number:");
+printf("Enter the numerator and the denominator of the number:");
 scanf("%d %d",&a.num,&a.den);
 return a;
 }
