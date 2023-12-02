@@ -22,5 +22,8 @@ Fraction smallest(Fraction a,Fraction b,fraction c)
     }else if(q<r)
     {
         return b;
+    }else{
+        return c;
     }
 }
+void output(Fraction a)
