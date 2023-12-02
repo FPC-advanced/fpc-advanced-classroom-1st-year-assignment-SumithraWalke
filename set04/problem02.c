@@ -11,3 +11,8 @@ scanf("%d %d",&a.num,&a.den);
 return a;
 }
 Fraction smallest(Fraction a,Fraction b,fraction c)
+{
+    float p,q,r;
+    p=a.num/a.den;
+    
+}
