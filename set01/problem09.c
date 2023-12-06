@@ -20,16 +20,12 @@ float square_root(float n)
     float guess = n; 
     float previous_guess;
     float epsilon=0.0001;
-    int i=0;
-    { 
-        do {
-        previous_guess = guess;
-       guess=0.5*(guess+n/guess);
-    }
-      while(guess<epsilon);  
-
-
-    }
+   
+   while(fabs(guess-previous_guess)>epsilon)
+   {
+    previous_guess=guess;
+    guess=0.5*(guess + n/guess);
+   }
     return guess;
 }
 
